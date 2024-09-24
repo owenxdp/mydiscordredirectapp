@@ -7,7 +7,7 @@ app.get("/login", (req, res) => {
     if (code){
         res.send(code)
     }else{
-        res.redirect("https://discord.com/oauth2/authorize?client_id=1287818726942703777&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Flogin&scope=identify");
+        res.redirect("https://discord.com/oauth2/authorize?client_id=1287818726942703777&response_type=code&redirect_uri=https%3A%2F%2Fmydiscordredirectapp.onrender.com%2Flogin&scope=identify");
     }
 })
 
