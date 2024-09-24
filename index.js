@@ -1,7 +1,5 @@
 const express = require("express");
 const app = express();
-const axios = require("axios");
-const url = require("url");
 let port = process.env.PORT || 3000;
 
 app.get("/login", (req, res) => {
